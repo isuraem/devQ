@@ -31,8 +31,8 @@ int main() {
           </pre>
         </div>
         <div className="flex h-full">
-          <div className="bg-blue-950 w-2/3"></div>
-          <div className="bg-white w-1/2 flex flex-col justify-center items-center text-center">
+          <div className="bg-blue-950 w-full sm:w-2/3"></div> {/* Adjusted width */}
+          <div className="bg-white w-full sm:w-1/2 flex flex-col justify-center items-center text-center">
             <h1 className="text-blue-950 text-2xl font-semibold">
               Ready for the journey ahead?
             </h1>
@@ -46,11 +46,10 @@ int main() {
                 </button>
               </Link>
               <Link href="./sign-up">
-                <button  className="font-semibold bg-indigo-400 text-white px-14 py-2 rounded hover:bg-indigo-700">
+                <button className="font-semibold bg-indigo-400 text-white px-14 py-2 rounded hover:bg-indigo-700">
                   Sign up
                 </button>
               </Link>
-              
             </div>
             <Footer />
           </div>
